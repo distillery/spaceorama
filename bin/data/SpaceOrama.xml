@@ -1,0 +1,158 @@
+<space>
+
+<komeetbanen>
+
+<!--
+	boven midden -> maan
+-->
+<baan>
+	<startx>400</startx>
+	<starty>100</starty>
+	<startz>0</startz>
+	<offsetx>100</offsetx>
+	<offsety>15</offsety>
+	<speed>0.01</speed>
+	<outOfSpace>30</outOfSpace>
+</baan>
+<baan>
+	<startx>600</startx>
+	<starty>400</starty>
+	<startz>0</startz>
+	<offsetx>50</offsetx>
+	<offsety>-10</offsety>
+	<speed>0.1</speed>
+	<outOfSpace>30</outOfSpace>
+</baan>
+<!-- 
+	rechtsboven -> linksonder traag
+-->
+<baan>
+	<startx>750</startx>
+	<starty>100</starty>
+	<startz>0</startz>
+	<offsetx>-150</offsetx>
+	<offsety>50</offsety>
+	<speed>0.003</speed>
+	<outOfSpace>50</outOfSpace>
+</baan>
+
+<!-- RAKETFASE
+	rechtsonder -> linksboven
+-->
+<baan>
+	<startx>500</startx>
+	<starty>400</starty>
+	<startz>0</startz>
+	<offsetx>-100</offsetx>
+	<offsety>-100</offsety>
+	<speed>0.08</speed>
+	<outOfSpace>20</outOfSpace>
+</baan>
+
+<!--
+	linksboven -> rechtsonder (voor raketfase)
+-->
+<baan>
+	<startx>100</startx>
+	<starty>000</starty>
+	<startz>0</startz>
+	<offsetx>30</offsetx>
+	<offsety>100</offsety>
+	<speed>0.1</speed>
+	<outOfSpace>20</outOfSpace>
+</baan>
+
+<baan>
+	<startx>300</startx>
+	<starty>50</starty>
+	<startz>0</startz>
+	<offsetx>30</offsetx>
+	<offsety>50</offsety>
+	<speed>0.5</speed>
+	<outOfSpace>40</outOfSpace>
+</baan>
+
+</komeetbanen>
+
+<planeetbanen>
+
+<!--
+	van rechts onder -> deep space
+-->
+<baan>
+	<startx>600</startx>
+	<starty>500</starty>
+	<startz>1.5</startz>
+	<offsetx>-250</offsetx>
+	<offsety>20</offsety>
+	<speed>-0.001</speed>
+	<outOfSpace>40.0</outOfSpace>
+</baan>
+
+
+<!--
+	rechts onderaan -> links net achter Mars
+-->
+<baan>
+	<startx>600</startx>
+	<starty>400</starty>
+	<startz>0</startz>
+	<offsetx>-800</offsetx>
+	<offsety>-100</offsety>
+	<speed>0.0001</speed>
+	<outOfSpace>20.0</outOfSpace>
+</baan>
+<!--
+	rechts onder maan -> rechts buiten beeld
+-->
+<baan>
+	<startx>200</startx>
+	<starty>200</starty>
+	<startz>0.1</startz>
+	<offsetx>1600</offsetx>
+	<offsety>150</offsety>
+	<speed>0.00007</speed>
+	<outOfSpace>20.0</outOfSpace>
+</baan>
+<!--
+	linksboven -> rechts buiten beeld
+-->
+<baan>
+	<startx>0</startx>
+	<starty>0</starty>
+	<startz>0.05</startz>
+	<offsetx>1600</offsetx>
+	<offsety>0</offsety>
+	<speed>0.0002</speed>
+	<outOfSpace>20.0</outOfSpace>
+</baan>
+<!--
+	van achter midden -> deep space
+-->
+<baan>
+	<startx>200</startx>
+	<starty>150</starty>
+	<startz>0.5</startz>
+	<offsetx>0</offsetx>
+	<offsety>0</offsety>
+	<speed>-0.0003</speed>
+	<outOfSpace>40.0</outOfSpace>
+</baan>
+
+
+<!--
+	van midden links deep space naar voor net boven mars
+-->
+<baan>
+	<startx>200</startx>
+	<starty>300</starty>
+	<startz>0.1</startz>
+	<offsetx>-200</offsetx>
+	<offsety>-210</offsety>
+	<speed>0.0005</speed>
+	<outOfSpace>20.0</outOfSpace>
+</baan>
+
+</planeetbanen>
+
+</space>
